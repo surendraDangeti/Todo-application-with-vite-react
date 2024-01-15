@@ -1,0 +1,76 @@
+/* styles.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-item {
+    border: 1px solid #e74c3c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .done .todo-text {
+    text-decoration: line-through;
+  }
+  
+  .todo-text {
+    color: #27ae60;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover,
+  .edit-button:hover {
+    opacity: 0.8;
+  }
+  
